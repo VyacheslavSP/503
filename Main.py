@@ -70,6 +70,7 @@ def build_instrumet(path_of_excell, count_instr):
 
 class Instrument:
     poz_ferst_cell = [12, 1]
+    
 
     def __init__(self, Number_instr, Number_ZK, Poveritel, temp_mes_arr, Hum_mes_arr, Model):
         self.Number_instr = Number_instr
