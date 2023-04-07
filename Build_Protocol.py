@@ -95,7 +95,7 @@ def build_prot(Instrument):
         temp_num_instr = temp_num_instr[:pos2] + '_' + temp_num_instr[pos2+1:]
     NameProtok = "448-"+Instrument.Number_ZK+"-" + \
         str(date_arr[2])+'-'+temp_num_instr+'.xls'
-    PathToSave = 'Y:/Пугачев_НЕ_УДАЛЯТЬ/503/'+NameFolder+'/'+NameProtok
+    PathToSave = '//fs/Public/448/Пугачев_НЕ_УДАЛЯТЬ/503/'+NameFolder+'/'+NameProtok
     wb.Save()
     time.sleep(0.1)
     wb.Close()
